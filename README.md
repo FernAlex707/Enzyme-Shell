@@ -10,7 +10,7 @@ A computational model of enzymes encapsulated in a porous protein shell and reus
 |------|--------|--------------|
 | Dileep Reddy | `@TODO` | Proposer; kinetics and deactivation |
 | Alex | `@TODO` | TODO |
-| TODO | `@TODO` | TODO |
+| Kamal| `KamalKamal-Code` | TODO |
 | rwest | `@rwest` | Instructor |
 
 ## Plan
