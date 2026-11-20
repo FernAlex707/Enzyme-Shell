@@ -2,14 +2,14 @@
 
 A computational model of enzymes encapsulated in a porous protein shell and reused over many batch cycles. The model couples diffusion through the shell pores, Michaelis–Menten kinetics with product inhibition in the core, and enzyme deactivation, so we can ask: **which shell design keeps a pharmaceutical enzyme productive for the most cycles while still giving good conversion, yield, and product quality?**
 
-*Project proposed by Dileep Reddy.*
+*Project proposed by Dileep Reddy, Kamal Kamal, and Alex Fernandez.*
 
 ## Team
 
 | Name | GitHub | Role / focus |
 |------|--------|--------------|
 | Dileep Reddy | `@TODO` | Proposer; kinetics and deactivation |
-| Alex | `@TODO` | TODO |
+| Alex | `@FernAlex707` | TODO |
 | Kamal| `KamalKamal-Code` | TODO |
 | rwest | `@rwest` | Instructor |
 
