@@ -40,6 +40,7 @@ A computational modeling course project simulating **alcohol dehydrogenase (ADH)
 **Initial assumptions**
 
 - Isothermal (temperature added later)
+- Pressure drop included
 - One shell size per run
 - Uniform enzyme concentration inside the shell
 
