@@ -53,10 +53,10 @@ Then the same problem with radial finite volumes, checked against it. We sweep $
 
 | Person | Responsibility |
 |---|---|
-| [Name] | Kinetics module (Michaelis–Menten → bi-bi, inhibition), free-enzyme validation |
-| [Name] | Shell transport (Renkin, permeability, radial solver), numerical verification |
-| [Name] | Literature and parameter table (values, units, sources), fitting |
-| [Name] | Cycles, washing, blockage; sensitivity analysis and figures |
+| Alex | Kinetics module (Michaelis–Menten → bi-bi, inhibition), free-enzyme validation |
+| Dileep | Shell transport (Renkin, permeability, radial solver), numerical verification |
+| Kamal | Literature and parameter table (values, units, sources), fitting |
+| Everyone | Cycles, washing, blockage; sensitivity analysis and figures |
 | Everyone | Weekly check of the parameter table and this README |
 
 ## Use of AI
