@@ -37,9 +37,14 @@ Rough first list. Milestone 2's sensitivity analysis starts here. All ranges sti
 
 ## Three key references
 
-1. **Jakobson, Tullman-Ercek, Slininger & Mangan (2017).** A systems-level model reveals that 1,2-propanediol utilization microcompartments enhance pathway flux through intermediate sequestration. *PLoS Comput Biol* 13: e1005525. [doi:10.1371/journal.pcbi.1005525](https://doi.org/10.1371/journal.pcbi.1005525). **Gives us the model:** a spherical reaction–diffusion model with Michaelis–Menten enzymes inside a protein shell and a permeability boundary condition, plus a parameter table, characteristic-time analysis and public MATLAB code.
-2. **Selivanovitch, LaFrance & Douglas (2021).** Molecular exclusion limits for diffusion across a porous capsid. *Nat Commun* 12: 2903. [doi:10.1038/s41467-021-23200-1](https://doi.org/10.1038/s41467-021-23200-1). **Gives us pore data and a mechanism:** pore sizes for P22 morphologies, enzyme loading per capsid, measured size and charge cut-offs for substrates reaching encapsulated AdhD, and evidence that electrostatics and capsid "breathing" matter beyond a purely geometric pore model.
-3. **Sharma & Douglas (2020).** Tuning the catalytic properties of P22 nanoreactors through compositional control. *Nanoscale* 12: 336–346. [doi:10.1039/C9NR08348K](https://doi.org/10.1039/C9NR08348K). **Gives us parameter values and data to compare with:** *k*<sub>cat</sub> and *K*<sub>m</sub> for free and encapsulated AdhD, and activity vs. packing density.
+1. Sutter, M.; Boehringer, D.; Gutmann, S.; et al. (2008). Structural basis of enzyme encapsulation into a bacterial nanocompartment. Nature Structural & Molecular Biology. Using it for: shell structure, pore sizes, and how enzymes sit inside a protein shell.
+   https://pubmed.ncbi.nlm.nih.gov/19172747/
+2. Johnson, K. A.; Goody, R. S. (2011). The original Michaelis constant: translation of the 1913 Michaelis-Menten paper. Biochemistry. Takeaway:  the kinetic equation and its assumptions.
+   https://pmc.ncbi.nlm.nih.gov/articles/PMC3381512/
+   
+3. Sensitivity analysis
+Saltelli, A.; Annoni, P.; Azzini, I.; et al. (2010). Variance based sensitivity analysis of model output. Design and estimator for the total sensitivity index. Computer Physics Communications. Using it for: Sobol indices.
+  https://www.sciencedirect.com/science/article/abs/pii/S0010465509003087
 
 ## The first thing we'll compute
 
