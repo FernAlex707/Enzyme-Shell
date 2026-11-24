@@ -177,15 +177,15 @@ $$\frac{d\varepsilon}{dt} = -k_b \cdot (\text{foulant})$$
 
 | Week | Milestone |
 |---|---|
-| 1 | Scope, geometry, research questions, assumptions |
-| 2 | Free-enzyme Michaelis–Menten model validated |
-| 3 | Shell diffusion model running, η computed |
-| 4 | External mass transfer, cofactor and byproducts added |
-| 5 | Temperature, cycles, washing and pore blockage; numerics verified |
-| 6 | Parameters collected and fitted |
-| 7 | Parameter sweeps and sensitivity analysis |
-| 8 | Design map, figures, draft report |
-| 9 | Final report and presentation |
+|   | Scope, geometry, research questions, assumptions |
+|  1 | Free-enzyme Michaelis–Menten model validated |
+|   | Shell diffusion model running, η computed |
+|   | External mass transfer, cofactor and byproducts added |
+| 2 | Temperature, cycles, washing and pore blockage; numerics verified |
+|   | Parameters collected and fitted |
+|   | Parameter sweeps and sensitivity analysis |
+| 3 | Design map, figures, draft report |
+|   | Final report and presentation |
 
 ---
 
