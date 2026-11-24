@@ -48,7 +48,7 @@ A computational modeling course project simulating **alcohol dehydrogenase (ADH)
 
 ## Model Development
 
-**Phase 2 (Weeks 2–4).** Build from simple to complex, testing each layer before adding the next.
+Build from simple to complex, testing each layer before adding the next.
 
 ### Step 1: Free-enzyme baseline
 
@@ -113,7 +113,7 @@ $$\frac{d\varepsilon}{dt} = -k_b \cdot (\text{foulant})$$
 
 ## Numerical Methods
 
-**Phase 3 (Weeks 4–5)**
+**Phase 2 (Week 2)**
 
 **Method:** Method of lines. Finite-volume discretization in *r* (about 50–200 cells), then integrate with `scipy.integrate.solve_ivp` using `BDF` or `Radau`, since the system is stiff.
 
@@ -129,7 +129,6 @@ $$\frac{d\varepsilon}{dt} = -k_b \cdot (\text{foulant})$$
 
 ## Parameters and Validation
 
-**Phase 4 (Weeks 5–6)**
 
 - Collect literature values: ADH *K*<sub>m</sub>, *k*<sub>cat</sub>, *V*<sub>max</sub>, diffusivities of substrate and NAD(H), and typical pore sizes for protein shells and cages.
 - Fit unknown parameters (τ, *k*<sub>d</sub>, *k*<sub>b</sub>) with `scipy.optimize.least_squares`.
@@ -139,7 +138,7 @@ $$\frac{d\varepsilon}{dt} = -k_b \cdot (\text{foulant})$$
 
 ## Simulation Studies
 
-**Phase 5 (Weeks 6–7)**
+**Phase 3 (Week 3)**
 
 | Vary | Observe |
 |---|---|
@@ -157,7 +156,6 @@ $$\frac{d\varepsilon}{dt} = -k_b \cdot (\text{foulant})$$
 
 ## Report and Presentation
 
-**Phase 6 (Weeks 8–9)**
 
 **Structure:** introduction and motivation, governing equations, numerical method, verification, results, discussion (design recommendations, limitations), conclusion.
 
